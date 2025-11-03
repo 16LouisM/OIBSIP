@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Light/Dark Theme Toggle -->
+  <div class="theme-toggle">
+    <button id="toggle-theme">🌙 Dark Mode</button>
+  </div>
+  <!--  Loading Screen -->
+  <div id="loading">
+    <div class="loader"></div>
+    <p>Loading Calculator...</p>
+  </div>
+  <!-- Calculator UI -->
+  <div class="calculator">
+    <input type="text" id="display" disabled />
+    <div class="buttons">
+      <button>(</button>
+      <button>)</button>
+      <button id="clear">clear</button>
+      <button id="del">del</button>
+
+      <button id="ans">ans</button>
+      <button>√</button>
+      <button>÷</button>
+      <button>%</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>x</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>−</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>+</button>
+
+      <button>.</button>
+      <button>0</button>
+      <button>±</button>
+      <button id="enter" class="enter">ENTER</button>
+    </div>
+
+    <footer class="copyright">
+      <p>© 2025 Mashele Technologies</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
